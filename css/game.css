@@ -1,0 +1,33 @@
+body{
+background-color: black;
+}
+
+#Terrain{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 15%;
+    left: 10%;
+}
+
+
+#Player{
+    position: absolute;
+    width: 3%;
+    height: 5%;
+    top: 87%;
+    left: 40%;
+}
+
+.Bombe{
+    position: absolute;
+    width: 3%;
+    height: 5%;
+
+}
+
+#DK{
+    position: absolute;
+    top: 20%;
+    left: 49%;
+}

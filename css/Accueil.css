@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: crimson;
+    
+}
+#CircuitBg{
+    position:relative;
+    margin-left: 23%;
+}
+#formid{
+    position: relative;
+    margin-left: 25%;
+}
+#userN{
+    margin-top:5%;
+}
+#Submit{
+    margin-left: 43.5%;
+    margin-top: 1%;
+}
+
+.Dk{
+    position: absolute;
+    margin-top:5.2%;
+    left:20%;
+    
+} 
+
+

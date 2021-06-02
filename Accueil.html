@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/Accueil.css">
+    
+    
+    <script src="./js/sprite/Donkeykong.js"></script>
+    <script src="./js/sprite.js"></script>
+    <script src="./js/TiledImage.js"></script>
+    <script src="js/Accueil.js"></script>
+</head>
+<body>
+    <form id = "formid"  method="post" action="/Introduction.html"  > 
+        <label for="Username">Username:</label>
+        <input type="text" id= "userN">
+        <label for="mdp">Mot de passe :</label>
+        <input type="password"  id= "mdp" >
+    </form>
+    <button id="Submit" type="submit" onclick="onsubmitt()">
+        Envoyer        
+    </button>
+    <div id="CircuitBg">
+        <img src="./img/CIRCUIT.png" alt="circuit de donkey kong">
+        <img src="./img/donkeygif.gif" alt="" id="donkey" class= "Dk">
+            
+        </div>
+    </div>
+</body>
+</html>
